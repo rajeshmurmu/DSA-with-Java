@@ -19,5 +19,6 @@ public class inputAndOutput{
         else{
             System.out.print(-1);
         }
+        sc.close();
     }
 }
