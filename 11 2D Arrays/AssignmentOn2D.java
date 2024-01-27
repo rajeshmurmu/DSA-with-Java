@@ -1,6 +1,19 @@
 
 public class AssignmentOn2D {
 
+    public static void countOfN(int arr[][]) {
+        int countof7 = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+                if (arr[i][j] == 7) {
+                    countof7++;
+                }
+            }
+        }
+
+        System.out.println(countof7);
+    }
+
     public static void sumOf2ndRow(int arr[][]) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -32,16 +45,16 @@ public class AssignmentOn2D {
 
     public static void main(String[] args) {
         // question 1
-        // int arr[][] = { { 4, 7, 8 }, { 8, 8, 7 } };
-        // leaved for solving
+        int arr[][] = { { 4, 7, 8 }, { 8, 8, 7 } };
+        countOfN(arr);
 
         // qustion 2
         // int nums[][] = { { 1, 4, 9 }, { 11, 4, 3 }, { 2, 2, 3 } };
         // sumOf2ndRow(nums);
 
         // question 3
-        int nums[][] = { { 1, 4, 9 }, { 11, 4, 3 }, { 2, 2, 3 } };
-        transposeMatrix(nums);
+        // int nums[][] = { { 1, 4, 9 }, { 11, 4, 3 }, { 2, 2, 3 } };
+        // transposeMatrix(nums);
 
     }
 }
