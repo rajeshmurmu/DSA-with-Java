@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Creation2DArrays {
+public class Creation2DArray {
 
     public static boolean searchIn2D(int arr[][], int target) {
         for (int i = 0; i < arr.length; i++) {
