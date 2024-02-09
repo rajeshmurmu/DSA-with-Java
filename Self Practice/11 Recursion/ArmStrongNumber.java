@@ -1,5 +1,5 @@
 public class ArmStrongNumber {
-    // 0, 1, 153, 370, 371 and 407 are the armstrong Numbers.
+    // 0, 1, 153, 370, 371 and 407, 1634 are the armstrong Numbers.
     // 153 = (1*1*1)+(5*5*5)+(3*3*3)
     // where:
     // (1*1*1)=1
@@ -45,7 +45,7 @@ public class ArmStrongNumber {
 
     public static void main(String[] args) {
         // int num = 407;
-        int num = 100;
+        int num = 1634;
         if (calulateAllDigits(num) == num) {
             System.out.println(num + " is an Armstrong Number");
         } else {
